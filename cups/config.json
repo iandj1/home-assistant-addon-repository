@@ -38,5 +38,4 @@
         "keyfile": "str",
         "require_ssl": "bool"
     },
-    "image": "nicholascarr/{arch}-addon-cups"
 }
