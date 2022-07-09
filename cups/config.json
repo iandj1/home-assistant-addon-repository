@@ -37,5 +37,5 @@
         "certfile": "str",
         "keyfile": "str",
         "require_ssl": "bool"
-    },
+    }
 }
