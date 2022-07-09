@@ -3,7 +3,7 @@
     "version": "1.0.0-alpha.25",
     "slug": "cups",
     "description": "A CUPS print server with Avahi installed",
-    "url": "https://github.com/ncarr/addon-repository",
+    "url": "https://github.com/iandj1/home-assistant-addon-repository",
     "arch": [
         "armhf",
         "armv7",
