@@ -21,7 +21,6 @@ RUN apt-get update \
         lsb-release \
     && echo "deb http://nginx.org/packages/debian `lsb_release -cs` nginx" \
         | tee /etc/apt/sources.list.d/nginx.list \
-    && 
     && curl -fsSL https://nginx.org/keys/nginx_signing.key | apt-key add - \
     && apt-get update \
     && apt-get install nginx \
