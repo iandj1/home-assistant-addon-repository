@@ -4,6 +4,7 @@
     "slug": "cups",
     "description": "A CUPS print server with Avahi installed",
     "url": "https://github.com/iandj1/home-assistant-addon-repository",
+    "init": false,
     "arch": [
         "armhf",
         "armv7",
