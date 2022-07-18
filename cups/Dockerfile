@@ -19,11 +19,7 @@ RUN apt-get update \
         printer-driver-foo2zjs \
         gnupg2 \
         lsb-release \
-    && echo "deb http://nginx.org/packages/debian `lsb_release -cs` nginx" \
-        | tee /etc/apt/sources.list.d/nginx.list \
-    && curl -fsSL https://nginx.org/keys/nginx_signing.key | apt-key add - \
-    && apt-get update \
-    && apt-get install -y --no-install-recommends nginx \
+        nginx \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
